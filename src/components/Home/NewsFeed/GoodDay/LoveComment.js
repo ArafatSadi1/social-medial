@@ -34,7 +34,7 @@ const LoveComment = () => {
       </div>
       <div className="my-4">
         <div className="w-full flex justify-between gap-7">
-          <img className="w-11 h-11 rounded-full" src={profile} alt="" />
+          <img className="w-10 h-10 rounded-full" src={profile} alt="" />
           <div className="w-full flex items-center gap-2">
             <div className="flex items-center gap-2">
               <BsFillEmojiSmileFill className="text-lg" />

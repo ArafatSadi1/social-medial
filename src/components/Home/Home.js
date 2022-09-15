@@ -1,6 +1,7 @@
 import React from "react";
 import Explore from "./Explore/Explore";
 import MySection from "./MySection/MySection";
+import FriendsPosts from "./NewsFeed/FriendsPosts/FriendsPosts";
 import GoodDay from "./NewsFeed/GoodDay/GoodDay";
 import YourFriends from "./YourFriends/YourFriends";
 
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
       </div>
       <GoodDay />
+      <FriendsPosts />
     </div>
   );
 };
