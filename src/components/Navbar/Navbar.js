@@ -95,7 +95,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="&#128269; Search"
-            className="w-80 py-1 px-3 rounded-full"
+            className="w-96 py-2 px-3 rounded-full focus:outline-none focus:border"
           />
         </div>
         <div class="navbar-end">
