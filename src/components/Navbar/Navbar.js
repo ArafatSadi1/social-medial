@@ -49,7 +49,7 @@ const Navbar = () => {
           <div class="w-6 rounded-full">
             <img src={profile} />
           </div>
-          <p className="mx-1">Yasin Arafat</p>
+          <p className="mx-1 text-white">Yasin Arafat</p>
           <span>
             <BsChevronDown />
           </span>
