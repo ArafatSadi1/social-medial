@@ -5,7 +5,7 @@ import { AiOutlineGlobal, AiOutlinePlus } from "react-icons/ai";
 import { BsCircleHalf, BsEmojiSmile } from "react-icons/bs";
 import { MdMonochromePhotos } from "react-icons/md";
 import { GoChevronDown } from "react-icons/go";
-import Vote from "../Vote/Vote";
+import Vote from "./Vote/Vote";
 
 const MySection = () => {
   return (
