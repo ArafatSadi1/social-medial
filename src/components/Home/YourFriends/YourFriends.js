@@ -6,7 +6,8 @@ const YourFriends = () => {
     <div>
       <div className="w-80 bg-base-100 p-5 rounded">
         <h5 className="text-xl font-semibold">You Might Like</h5>
-        <div class="avatar flex items-center mt-8">
+        <div class="divider"></div>
+        <div class="avatar flex items-center mt-6">
           <div class="w-12 rounded-full">
             <img src={profile} />
           </div>
@@ -29,7 +30,7 @@ const YourFriends = () => {
         <input
           type="text"
           placeholder="&#128269;"
-          className="w-full py-2 px-3 my-5 rounded-full focus:outline-none focus:border bg-slate-200"
+          className="w-full py-2 px-3 my-5 rounded-full focus:outline-none focus:border bg-gray-200"
         />
         <div className="mt-2">
           <div class="avatar flex items-center">
