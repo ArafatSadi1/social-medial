@@ -3,6 +3,7 @@ import profile from "../../../utilities/profile.png";
 import { GoChevronDown } from "react-icons/go";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { MdOutlineCancel } from "react-icons/md";
+import LikeComment from "../../Shared/LikeComment";
 
 const Vote = () => {
   return (
@@ -24,7 +25,7 @@ const Vote = () => {
         </span>
       </div>
       <p>your favourite game</p>
-      <div className="mt-3 mb-7">
+      <div className="mt-3 mb-14">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <input
@@ -72,6 +73,10 @@ const Vote = () => {
           </button>
         </div>
       </div>
+      <div>
+        <p className="text-end text-gray-600 mb-3">2 Comment</p>
+      </div>
+      <LikeComment />
     </div>
   );
 };
