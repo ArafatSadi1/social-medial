@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import logo from "../../utilities/logo.png";
 import { BiHome } from "react-icons/bi";
 import { FaUserFriends } from "react-icons/fa";
-import { AiOutlineMessage } from "react-icons/ai";
+import { AiOutlineMessage, AiOutlineSearch } from "react-icons/ai";
 import { MdNotificationsNone } from "react-icons/md";
 import { BsChevronDown } from "react-icons/bs";
 import profile from "../../utilities/profile.png";
@@ -59,7 +59,7 @@ const Navbar = () => {
   );
   return (
     <div className="w-full bg-[#34465D]">
-      <div className="max-w-[1300px] mx-auto navbar">
+      <div className="max-w-[1300px] mx-auto navbar px-6">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -92,11 +92,14 @@ const Navbar = () => {
           </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <input
-            type="text"
-            placeholder="&#128269; Search"
-            className="w-96 py-2 px-3 rounded-full focus:outline-none focus:border"
-          />
+          <div className="relative">
+            <AiOutlineSearch className="absolute text-xl mt-3 ml-3 text-gray-500 pointer-events-none"/>
+            <input
+              type="text"
+              placeholder="Search"
+              className="w-96 pl-9 py-2 px-3 rounded-full focus:outline-none focus:ring-1 font-semibold text-gray-700"
+            />
+          </div>
         </div>
         <div class="navbar-end">
           <ul class="menu menu-horizontal p-0 flex gap-10 text-slate-400">

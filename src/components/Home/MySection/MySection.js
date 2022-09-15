@@ -1,9 +1,11 @@
 import React from "react";
 import profile from "../../../utilities/profile.png";
 import myDay from "../../../utilities/myDay.jpg";
-import { AiOutlinePlus } from "react-icons/ai";
+import { AiOutlineGlobal, AiOutlinePlus } from "react-icons/ai";
 import { BsCircleHalf, BsEmojiSmile } from "react-icons/bs";
 import { MdMonochromePhotos } from "react-icons/md";
+import { GoChevronDown } from "react-icons/go";
+import Vote from "../Vote/Vote";
 
 const MySection = () => {
   return (
@@ -52,7 +54,7 @@ const MySection = () => {
           <input
             type="text"
             placeholder="Create a new post..."
-            className="w-full py-2 px-3 rounded-full bg-gray-200 focus:outline-none focus:border"
+            className="w-full py-2 px-3 rounded-full bg-gray-200 focus:outline-none focus:ring-1"
           />
         </div>
         <div class="divider"></div>
@@ -71,6 +73,15 @@ const MySection = () => {
           </span>
         </div>
       </div>
+      {/* posts */}
+      <div className="bg-base-100 p-3 rounded">
+        <span className="flex items-center gap-4 font-semibold">
+          <p className="text-red-500">Public Post</p>
+          <p className="text-gray-800">Friend Post</p>
+        </span>
+      </div>
+      {/* vote section */}
+      <Vote/>
     </div>
   );
 };

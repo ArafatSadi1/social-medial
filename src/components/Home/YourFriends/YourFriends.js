@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineSearch } from "react-icons/ai";
 import profile from "../../../utilities/profile.png";
 
 const YourFriends = () => {
@@ -27,11 +28,13 @@ const YourFriends = () => {
       </div>
       <div className="w-80 bg-base-100 p-5 rounded mt-3">
         <h5 className="text-xl font-semibold">Your Friends</h5>
-        <input
-          type="text"
-          placeholder="&#128269;"
-          className="w-full py-2 px-3 my-5 rounded-full focus:outline-none focus:border bg-gray-200"
-        />
+        <div className="relative">
+          <AiOutlineSearch className="absolute text-xl mt-8 ml-3 text-gray-500 pointer-events-none" />
+          <input
+            type="text"
+            className="w-full pl-8 py-2 px-3 my-5 rounded-full focus:outline-none focus:ring-1 bg-gray-200 font-semibold text-gray-700"
+          />
+        </div>
         <div className="mt-2">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -43,7 +46,9 @@ const YourFriends = () => {
             <div class="w-10 rounded-full">
               <img src={profile} />
             </div>
-            <p className="ml-4 font-semibold text-gray-600">Kazi Musharrof Shishir</p>
+            <p className="ml-4 font-semibold text-gray-600">
+              Kazi Musharrof Shishir
+            </p>
           </div>
         </div>
       </div>
