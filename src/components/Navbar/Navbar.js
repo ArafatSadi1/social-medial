@@ -45,7 +45,7 @@ const Navbar = () => {
         </NavLink>
       </span>
       <span>
-        <div class="avatar flex justify-center items-center">
+        <div class="avatar flex justify-center items-center cursor-pointer">
           <div class="w-6 rounded-full">
             <img src={profile} />
           </div>
