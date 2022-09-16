@@ -6,7 +6,7 @@ import profile from "../../../../utilities/profile.png";
 import car from "../../../../utilities/car (1).jpg";
 import car1 from "../../../../utilities/car (2).jpg";
 import car2 from "../../../../utilities/car (3).jpg";
-import LoveComment from "./LoveComment";
+import LoveComment from "../../../Shared/LoveComment";
 import { IoHeartCircleSharp } from "react-icons/io5";
 import { MdBookmark, MdDeleteForever, MdFlag, MdModeEdit, MdOutlineLink } from "react-icons/md";
 

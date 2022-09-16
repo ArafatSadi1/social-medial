@@ -7,9 +7,9 @@ import { RiShareForwardLine } from "react-icons/ri";
 import { VscComment } from "react-icons/vsc";
 import { IoIosPaperPlane } from "react-icons/io";
 import {IoHeartCircleSharp} from "react-icons/io5"
-import profile from "../../../../utilities/profile.png";
+import profile from "../../utilities/profile.png";
 
-const LoveComment = () => {
+const LoveComment = ({viewMore}) => {
   return (
     <div>
       <div className="bg-gray-100 rounded flex justify-evenly items-center py-3">
@@ -17,7 +17,7 @@ const LoveComment = () => {
           <span>
             <IoHeartCircleSharp className="text-2xl" />
           </span>
-          <p className="font-semibold">Like</p>
+          <p className="font-semibold">Love</p>
         </div>
         <div className="flex items-center gap-2">
           <span>
@@ -32,6 +32,9 @@ const LoveComment = () => {
           <p>Share</p>
         </div>
       </div>
+      {
+        viewMore && <p className="font-semibold text-gray-400 my-3">view more comments</p>
+      }
       <div className="my-4">
         <div className="w-full flex justify-between gap-7">
           <img className="w-10 h-10 rounded-full" src={profile} alt="" />

@@ -8,7 +8,7 @@ import { VscComment } from "react-icons/vsc";
 import { IoIosPaperPlane } from "react-icons/io";
 import profile from "../../utilities/profile.png";
 
-const LikeComment = () => {
+const LikeComment = ({ viewMore }) => {
   return (
     <div>
       <div className="bg-gray-100 rounded flex justify-evenly items-center py-3">
@@ -31,6 +31,9 @@ const LikeComment = () => {
           <p>Share</p>
         </div>
       </div>
+      {viewMore && (
+        <p className="font-semibold text-gray-400 my-3">view more comments</p>
+      )}
       <div className="my-4">
         <div className="w-full flex justify-between gap-7">
           <img className="w-11 h-11 rounded-full" src={profile} alt="" />
