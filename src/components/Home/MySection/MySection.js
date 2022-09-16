@@ -9,7 +9,7 @@ import Vote from "./Vote/Vote";
 
 const MySection = () => {
   return (
-    <div className="w-[650px] mx-5">
+    <div className="col-span-3">
       {/* add story section */}
       <div className="flex gap-2">
         <div

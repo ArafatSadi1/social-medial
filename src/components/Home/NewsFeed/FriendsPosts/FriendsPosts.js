@@ -15,8 +15,8 @@ import LoveComment from "../../../Shared/LoveComment";
 
 const FriendsPosts = () => {
   return (
-    <div className="pb-3">
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+    <div className="col-span-3 pb-3">
+      <div className="bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -49,7 +49,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* sakil post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -108,7 +108,7 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -147,7 +147,7 @@ const FriendsPosts = () => {
         <AngryComment />
       </div>
       {/* habib hossain post */}
-      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 py-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3 px-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -185,7 +185,7 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -223,7 +223,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* mac dusa */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -260,7 +260,7 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -291,7 +291,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -323,7 +323,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* sadek hossain */}
-      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 py-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3 px-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -363,7 +363,7 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* kamran ahmed post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -399,7 +399,7 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* flo paroah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -435,7 +435,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* Salman ahmed post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -470,7 +470,7 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* no post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
+      <div className="  bg-base-100 p-3 my-3 rounded text-primary">
         <div className="text-center">
           <h2 className="text-4xl font-bold my-6">There are No Posts Found!</h2>
           <p className="text-gray-500 font-semibold text-lg mb-6">

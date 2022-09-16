@@ -9,14 +9,22 @@ const Home = () => {
   return (
     <div className="bg-accent px-6 pt-2">
       <div className="max-w-[1300px] mx-auto">
-        <div className="flex justify-between">
+        <div className="grid grid-cols-5 gap-3">
           <Explore />
           <MySection />
           <YourFriends />
         </div>
+        <div className="grid grid-cols-5 gap-3">
+          <div></div>
+          <GoodDay />
+          <div></div>
+        </div>
+        <div className="grid grid-cols-5 gap-3">
+          <div></div>
+          <FriendsPosts />
+          <div></div>
+        </div>
       </div>
-      <GoodDay />
-      <FriendsPosts />
     </div>
   );
 };

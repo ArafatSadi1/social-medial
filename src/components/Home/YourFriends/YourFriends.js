@@ -5,7 +5,7 @@ import profile from "../../../utilities/profile.png";
 const YourFriends = () => {
   return (
     <div>
-      <div className="w-80 bg-base-100 p-5 rounded">
+      <div className="bg-base-100 p-5 rounded">
         <h5 className="text-primary text-xl font-semibold">You Might Like</h5>
         <div class="divider"></div>
         <div class="avatar flex items-center mt-6">
@@ -26,7 +26,7 @@ const YourFriends = () => {
           </button>
         </div>
       </div>
-      <div className="w-80 bg-base-100 p-5 rounded mt-3">
+      <div className="bg-base-100 p-5 rounded mt-3">
         <h5 className="text-primary text-xl font-semibold">Your Friends</h5>
         <div className="relative">
           <AiOutlineSearch className="absolute text-xl mt-8 ml-3 text-gray-500 pointer-events-none" />
