@@ -12,7 +12,7 @@ import { MdBookmark, MdDeleteForever, MdFlag, MdModeEdit, MdOutlineLink } from "
 
 const GoodDay = () => {
   return (
-    <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+    <div className="w-[620px] mx-auto bg-base-100 p-3 mb-3 rounded text-gray-700">
       <div className="flex items-center justify-between">
         <div class="avatar flex items-center">
           <div class="w-10 rounded-full">

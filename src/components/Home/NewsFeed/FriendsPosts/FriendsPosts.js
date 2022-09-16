@@ -15,7 +15,7 @@ import LoveComment from "../../../Shared/LoveComment";
 
 const FriendsPosts = () => {
   return (
-    <div>
+    <div className="pb-3">
       <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
         <div className="flex items-center justify-between">
           <div class="avatar flex items-center">
@@ -363,7 +363,7 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* kamran ahmed post */}
-      <div className="w-[620px] mx-auto bg-base-100 px-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -397,6 +397,84 @@ const FriendsPosts = () => {
           </div>
         </div>
         <LikeComment viewMore="viewMore" />
+      </div>
+      {/* flo paroah */}
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+        <div className="flex items-center justify-between mt-3">
+          <div class="avatar flex items-center">
+            <div class="w-10 rounded-full">
+              <img src={car} />
+            </div>
+            <span>
+              <p className="ml-3 font-semibold text-gray-700">Flo Pharoah</p>
+              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+                <span>28 days ago</span> <AiOutlineGlobal />
+              </p>
+            </span>
+          </div>
+          <span>
+            <GoChevronDown className="font-bold" />
+          </span>
+        </div>
+        <div className="mb-14 mt-3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+            veritatis eum nostrum odit sunt pariatur ducimus tempore hic
+            provident! Similique dolor officia enim fugiat quas expedita culpa
+            dicta!!
+          </p>
+        </div>
+        <div className="flex items-center gap-3 my-3">
+          <span className="flex items-center">
+            <IoHeartCircleSharp className="text-2xl text-red-500" />
+            <MdThumbUpAlt className="text-2xl text-[#13A0F8] mx-[-7px]" />
+            <HiEmojiHappy className="text-2xl text-[#eeb405]" />
+          </span>
+          <p>6</p>
+        </div>
+        <LikeComment />
+      </div>
+      {/* Salman ahmed post */}
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+        <div className="flex items-center justify-between mt-3">
+          <div class="avatar flex items-center">
+            <div class="w-10 rounded-full">
+              <img src={car} />
+            </div>
+            <span>
+              <p className="ml-3 font-semibold text-gray-700">salman ahmed</p>
+              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+                <span>29 days ago</span> <AiOutlineGlobal />
+              </p>
+            </span>
+          </div>
+          <span>
+            <GoChevronDown className="font-bold" />
+          </span>
+        </div>
+        <div className="mb-14 mt-3">
+          <p>Hello</p>
+        </div>
+        <div className="flex items-center justify-between my-3">
+          <div className="flex items-center gap-3">
+            <span className="flex items-center">
+              <MdThumbUpAlt className="text-2xl text-[#13A0F8]" />
+            </span>
+            <p>2</p>
+          </div>
+          <div className="flex gap-1 font-semibold">
+            <p>2</p>
+            <p className="text-gray-500">Comment</p>
+          </div>
+        </div>
+        <LikeComment viewMore="viewMore" />
+      </div>
+      {/* no post */}
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-black">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold my-6">There are No Posts Found!</h2>
+          <p className="text-gray-500 font-semibold text-lg mb-6">Keep checking back later or refresh to get more feeds!</p>
+        </div>
       </div>
     </div>
   );
