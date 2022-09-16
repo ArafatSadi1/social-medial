@@ -7,7 +7,7 @@ import YourFriends from "./YourFriends/YourFriends";
 
 const Home = () => {
   return (
-    <div className="bg-gray-200 px-6 pt-2">
+    <div className="bg-accent px-6 pt-2">
       <div className="max-w-[1300px] mx-auto">
         <div className="flex justify-between">
           <Explore />

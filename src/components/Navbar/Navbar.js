@@ -1,20 +1,21 @@
-import React from "react";
+import { React, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../utilities/logo.png";
 import { BiHome } from "react-icons/bi";
 import { FaUserFriends } from "react-icons/fa";
 import { AiOutlineMessage, AiOutlineSearch } from "react-icons/ai";
-import { MdNotificationsNone } from "react-icons/md";
+import { MdDarkMode, MdNotificationsNone, MdOutlineLightMode } from "react-icons/md";
 import { BsChevronDown } from "react-icons/bs";
+import { CgDarkMode } from "react-icons/cg";
 import profile from "../../utilities/profile.png";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ setToggle, toggle }) => {
   const items = (
     <>
       <span>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-base-100" : "")}
+          className={({ isActive }) => (isActive ? "text-white" : "")}
           to="/home"
         >
           <BiHome className="text-2xl" />
@@ -22,7 +23,7 @@ const Navbar = () => {
       </span>
       <span>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-base-100" : "")}
+          className={({ isActive }) => (isActive ? "text-white" : "")}
           to="/friends"
         >
           <FaUserFriends className="text-2xl" />
@@ -30,7 +31,7 @@ const Navbar = () => {
       </span>
       <span>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-base-100" : "")}
+          className={({ isActive }) => (isActive ? "text-white" : "")}
           to="/notifications"
         >
           <MdNotificationsNone className="text-2xl" />
@@ -38,11 +39,20 @@ const Navbar = () => {
       </span>
       <span>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-base-100" : "")}
+          className={({ isActive }) => (isActive ? "text-white" : "")}
           to="/message"
         >
           <AiOutlineMessage className="text-2xl" />
         </NavLink>
+      </span>
+      <span>
+        <button onClick={() => setToggle(!toggle)}>
+          {toggle ? (
+            <MdOutlineLightMode className="text-2xl" />
+          ) : (
+            <MdDarkMode className="text-2xl" />
+          )}
+        </button>
       </span>
       <span>
         <div class="avatar flex justify-center items-center cursor-pointer">
@@ -58,9 +68,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="w-full bg-[#34465D]">
+    <div className="w-full bg-neutral">
       <div className="max-w-[1300px] mx-auto navbar px-6">
-        <div class="navbar-start">
+        <div class="navbar-start lg:w-48">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg
@@ -93,11 +103,11 @@ const Navbar = () => {
         </div>
         <div class="navbar-center hidden lg:flex">
           <div className="relative">
-            <AiOutlineSearch className="absolute text-xl mt-3 ml-3 text-gray-500 pointer-events-none"/>
+            <AiOutlineSearch className="absolute text-xl mt-3 ml-3 text-gray-500 pointer-events-none" />
             <input
               type="text"
               placeholder="Search"
-              className="w-96 pl-9 py-2 px-3 rounded-full focus:outline-none focus:ring-1 font-semibold text-gray-700"
+              className="w-96 pl-9 py-2 px-3 rounded-full focus:outline-none focus:ring-1 font-semibold bg-accent text-primary"
             />
           </div>
         </div>

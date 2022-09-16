@@ -11,7 +11,7 @@ import profile from "../../utilities/profile.png";
 const LikeComment = ({ viewMore }) => {
   return (
     <div>
-      <div className="bg-gray-100 rounded flex justify-evenly items-center py-3">
+      <div className="bg-accent rounded flex justify-evenly items-center py-3">
         <div className="flex items-center gap-2">
           <span>
             <AiOutlineLike className="text-xl" />
@@ -48,7 +48,7 @@ const LikeComment = ({ viewMore }) => {
               <input
                 type="text"
                 placeholder="Write a comment..."
-                className="w-full py-2 px-3 pr-10 rounded-full bg-gray-200 focus:outline-none focus:ring-1 font-semibold text-gray-600"
+                className="w-full py-2 px-3 pr-10 rounded-full bg-accent focus:outline-none focus:ring-1 font-semibold text-secondary"
               />
             </div>
           </div>

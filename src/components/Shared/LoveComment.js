@@ -6,13 +6,13 @@ import { HiGif } from "react-icons/hi";
 import { RiShareForwardLine } from "react-icons/ri";
 import { VscComment } from "react-icons/vsc";
 import { IoIosPaperPlane } from "react-icons/io";
-import {IoHeartCircleSharp} from "react-icons/io5"
+import { IoHeartCircleSharp } from "react-icons/io5";
 import profile from "../../utilities/profile.png";
 
-const LoveComment = ({viewMore}) => {
+const LoveComment = ({ viewMore }) => {
   return (
     <div>
-      <div className="bg-gray-100 rounded flex justify-evenly items-center py-3">
+      <div className="bg-accent rounded flex justify-evenly items-center py-3">
         <div className="flex items-center gap-2 text-red-500">
           <span>
             <IoHeartCircleSharp className="text-2xl" />
@@ -32,9 +32,9 @@ const LoveComment = ({viewMore}) => {
           <p>Share</p>
         </div>
       </div>
-      {
-        viewMore && <p className="font-semibold text-gray-400 my-3">view more comments</p>
-      }
+      {viewMore && (
+        <p className="font-semibold text-gray-400 my-3">view more comments</p>
+      )}
       <div className="my-4">
         <div className="w-full flex justify-between gap-7">
           <img className="w-10 h-10 rounded-full" src={profile} alt="" />
@@ -49,7 +49,7 @@ const LoveComment = ({viewMore}) => {
               <input
                 type="text"
                 placeholder="Write a comment..."
-                className="w-full py-2 px-3 pr-10 rounded-full bg-gray-200 focus:outline-none focus:ring-1 font-semibold text-gray-600"
+                className="w-full py-2 px-3 pr-10 rounded-full bg-accent focus:outline-none focus:ring-1 font-semibold text-secondary"
               />
             </div>
           </div>

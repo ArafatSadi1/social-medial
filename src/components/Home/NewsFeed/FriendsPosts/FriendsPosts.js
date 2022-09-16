@@ -16,7 +16,7 @@ import LoveComment from "../../../Shared/LoveComment";
 const FriendsPosts = () => {
   return (
     <div className="pb-3">
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -24,7 +24,7 @@ const FriendsPosts = () => {
             </div>
             <span>
               <span className="flex items-center gap-4">
-                <p className="ml-3 font-semibold text-gray-700">
+                <p className="ml-3 font-semibold text-primary">
                   alfred parchment
                 </p>
                 <p className="flex items-center gap-2">
@@ -33,7 +33,7 @@ const FriendsPosts = () => {
                   </span>
                 </p>
               </span>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>17 hour ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -49,7 +49,7 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* sakil post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
@@ -57,13 +57,13 @@ const FriendsPosts = () => {
             </div>
             <span>
               <span className="flex items-center gap-4">
-                <p className="ml-3 font-semibold text-gray-700">Sakil Ahmed</p>
+                <p className="ml-3 font-semibold text-primary">Sakil Ahmed</p>
                 <p className="flex items-center gap-2">
                   <MdPlayCircle />
                   <span className="font-semibold">Black Business Owner</span>
                 </p>
               </span>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>17 hour ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -86,7 +86,7 @@ const FriendsPosts = () => {
             <p className="text-gray-500">Comment</p>
           </div>
         </div>
-        <div className="bg-gray-100 rounded flex justify-evenly items-center py-3">
+        <div className="bg-accent rounded flex justify-evenly items-center py-3">
           <div className="flex items-center gap-2 text-red-500">
             <span>
               <IoHeartCircleSharp className="text-2xl" />
@@ -108,15 +108,15 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Sakil Ahmed</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Sakil Ahmed</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>23 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -147,15 +147,15 @@ const FriendsPosts = () => {
         <AngryComment />
       </div>
       {/* habib hossain post */}
-      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3 px-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Habib Hossain</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Habib Hossain</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>24 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -185,15 +185,15 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Flo Phaloah</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Flo Phaloah</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>25 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -223,15 +223,15 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* mac dusa */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Mac Dusa</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Mac Dusa</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>25 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -260,15 +260,15 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Flo Pharoah</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Flo Pharoah</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>26 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -291,15 +291,15 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* flo pharoah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Flo Pharoah</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Flo Pharoah</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>26 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -323,15 +323,15 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* sadek hossain */}
-      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 py-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3 px-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Sadek Hossain</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Sadek Hossain</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>27 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -363,15 +363,15 @@ const FriendsPosts = () => {
         </div>
       </div>
       {/* kamran ahmed post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Kamran ahmed</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Kamran ahmed</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>27 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -399,15 +399,15 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* flo paroah */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">Flo Pharoah</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">Flo Pharoah</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>28 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -435,15 +435,15 @@ const FriendsPosts = () => {
         <LikeComment />
       </div>
       {/* Salman ahmed post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-gray-700">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="flex items-center justify-between mt-3">
           <div class="avatar flex items-center">
             <div class="w-10 rounded-full">
               <img src={car} />
             </div>
             <span>
-              <p className="ml-3 font-semibold text-gray-700">salman ahmed</p>
-              <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+              <p className="ml-3 font-semibold text-primary">salman ahmed</p>
+              <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
                 <span>29 days ago</span> <AiOutlineGlobal />
               </p>
             </span>
@@ -470,10 +470,12 @@ const FriendsPosts = () => {
         <LikeComment viewMore="viewMore" />
       </div>
       {/* no post */}
-      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-black">
+      <div className="w-[620px] mx-auto bg-base-100 p-3 my-3 rounded text-primary">
         <div className="text-center">
           <h2 className="text-4xl font-bold my-6">There are No Posts Found!</h2>
-          <p className="text-gray-500 font-semibold text-lg mb-6">Keep checking back later or refresh to get more feeds!</p>
+          <p className="text-gray-500 font-semibold text-lg mb-6">
+            Keep checking back later or refresh to get more feeds!
+          </p>
         </div>
       </div>
     </div>

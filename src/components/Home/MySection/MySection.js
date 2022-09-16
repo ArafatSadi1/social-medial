@@ -23,11 +23,11 @@ const MySection = () => {
         >
           <div className="mt-24">
             <div className="text-center mb-[-18px]">
-              <button className="p-2 rounded-full bg-blue-700 border-2 border-gray-800">
+              <button className="p-2 rounded-full bg-blue-700 border-2 border-black">
                 <AiOutlinePlus className="text-white font-bold" />
               </button>
             </div>
-            <div className="bg-gray-900 h-16 rounded-t-3xl rounded-b">
+            <div className="bg-black h-16 rounded-t-3xl rounded-b">
               <p className="font-semibold text-sm text-white text-center pt-8">
                 Your Story
               </p>
@@ -54,11 +54,11 @@ const MySection = () => {
           <input
             type="text"
             placeholder="Create a new post..."
-            className="w-full py-2 px-3 rounded-full bg-gray-200 focus:outline-none focus:ring-1"
+            className="w-full py-2 px-3 rounded-full bg-accent focus:outline-none focus:ring-1"
           />
         </div>
         <div class="divider"></div>
-        <div className="text-gray-600 flex justify-evenly items-center gap-6 mt-8 mb-2">
+        <div className="text-secondary flex justify-evenly items-center gap-6 mt-8 mb-2">
           <span className="flex items-center gap-2">
             <BsCircleHalf />
             <p className="text-md">Background</p>
@@ -77,11 +77,11 @@ const MySection = () => {
       <div className="bg-base-100 p-3 rounded">
         <span className="flex items-center gap-4 font-semibold">
           <p className="text-red-500">Public Post</p>
-          <p className="text-gray-800">Friend Post</p>
+          <p className="text-primary">Friend Post</p>
         </span>
       </div>
       {/* vote section */}
-      <Vote/>
+      <Vote />
     </div>
   );
 };

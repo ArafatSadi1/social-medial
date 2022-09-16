@@ -8,11 +8,17 @@ import car1 from "../../../../utilities/car (2).jpg";
 import car2 from "../../../../utilities/car (3).jpg";
 import LoveComment from "../../../Shared/LoveComment";
 import { IoHeartCircleSharp } from "react-icons/io5";
-import { MdBookmark, MdDeleteForever, MdFlag, MdModeEdit, MdOutlineLink } from "react-icons/md";
+import {
+  MdBookmark,
+  MdDeleteForever,
+  MdFlag,
+  MdModeEdit,
+  MdOutlineLink,
+} from "react-icons/md";
 
 const GoodDay = () => {
   return (
-    <div className="w-[620px] mx-auto bg-base-100 p-3 mb-3 rounded text-gray-700">
+    <div className="w-[620px] mx-auto bg-base-100 p-3 mb-3 rounded text-primary">
       <div className="flex items-center justify-between">
         <div class="avatar flex items-center">
           <div class="w-10 rounded-full">
@@ -20,7 +26,7 @@ const GoodDay = () => {
           </div>
           <span>
             <span className="flex items-center gap-4">
-              <p className="ml-3 font-semibold text-gray-700">Yasin Arafat</p>
+              <p className="ml-3 font-semibold text-primary">Yasin Arafat</p>
               <p className="flex items-center gap-2">
                 <BsFillEmojiHeartEyesFill className="text-[#bc8f0a]" />{" "}
                 <span className="text-sm font-semibold text-gray-500">
@@ -28,7 +34,7 @@ const GoodDay = () => {
                 </span>
               </p>
             </span>
-            <p className="ml-3 mt-1 text-xs text-[#7B7E86] flex items-center gap-1">
+            <p className="ml-3 mt-1 text-xs text-secondary flex items-center gap-1">
               <span>1 hour ago</span> <AiOutlineGlobal />
             </p>
           </span>
